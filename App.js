@@ -13,7 +13,6 @@ const slideUp = keyframes`
   to { transform: translateY(0); opacity: 1; }
 `;
 
-// Styles communs
 const Section = styled.section`
   padding: 4rem 8rem;
   position: relative;
@@ -37,7 +36,6 @@ const Button = styled.button`
   }
 `;
 
-// Hero Section
 const HeroSection = styled(Section)`
   display: flex;
   justify-content: space-between;
@@ -143,7 +141,6 @@ const Text = styled.span`
   font-size: 1rem;
 `;
 
-// Project Section
 const ProjectSection = styled(Section)`
   display: flex;
   justify-content: space-between;
@@ -234,7 +231,6 @@ const ProjectDetailItem = styled.li`
   }
 `;
 
-// Components
 const HeroSectionComponent = () => {
   return (
     <HeroSection>
